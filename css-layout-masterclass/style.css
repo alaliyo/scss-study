@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(73, 168, 231);
+}
+
+.father {
+    display: flex;
+    gap: 10px;
+    flex-flow: row wrap-reverse;
+}
+
+.box {
+    color: #ffffff;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:nth-child(1),
+.box:nth-child(3) {
+    color: black;
+    background-color: #ffffff;
+    border-color: black;
+}
